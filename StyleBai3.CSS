@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.flex-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    
+}
+.flex-container-2{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.child2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.child3{
+    display:flex;
+    flex-direction: row;
+}
+.child4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.item {
+width: 25px;
+height: 25px;
+background-color: orangered;
+text-align: center;
+line-height: 25px;
+border-radius: 4px;
+color: #fff;
+}
+

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 56px;
+    width: 100%;
+    background-color: rgb(103, 103, 222);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.header-list-item{
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+.header-item{
+    list-style: none;
+    color: #fff;
+}
+img {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+}
